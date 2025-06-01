@@ -13,9 +13,9 @@ mkdir -p "$PROJECT_NAME"/{cmd/web,internal,ui/{html,static}}
 cd "$PROJECT_NAME"
 
 # Initialize Go module
-go mod init github.com/yourusername/$PROJECT_NAME
+go mod init github.com/Primestack-Solutions-LLC/go-chi-react-template/$PROJECT_NAME
 
-echo "module github.com/yourusername/$PROJECT_NAME
+echo "module github.com/Primestack-Solutions-LLC/go-chi-react-template/$PROJECT_NAME
 
 go 1.21
 

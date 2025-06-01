@@ -8,7 +8,7 @@ import (
 
 func main() {
 	if len(os.Args) < 3 || os.Args[1] != "init" {
-		fmt.Println("Usage: go run github.com/yourusername/goproject@latest init <project-name>")
+		fmt.Println("Usage: go run github.com/Primestack-Solutions-LLC/go-chi-react-template@latest init <project-name>")
 		return
 	}
 
